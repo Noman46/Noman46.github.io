@@ -1,0 +1,103 @@
+
+/*
+Author: Muhammad Ibrahim Khali Noman
+email: nomanibrahim7@gmail.com
+
+ */
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  
+  background-image: url('../images/port.jpeg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+
+}
+.container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.container span{
+  text-transform: uppercase; 
+  display: block;
+  
+}
+.text1{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  background: black;
+  
+  margin-bottom: 20px;
+ 
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  font-size: 25px;
+  color: #6ab04d;
+
+}
+
+@keyframes text {
+  0%{
+    color: red;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 15px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 6px;
+    margin-bottom: -40px;
+  }
+}
+
+/* 
+ Button's Code goes here
+
+*/
+
+#showcase{
+	 
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 88%;
+    left: 57%;
+}
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#2ECC71;
+  border:#979A9A   1.5px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+
+}
+
+#showcase .button:hover{
+  background:#6ab04d;
+  color:#fff;
+}
+.second{
+  width: 100%;
+  height: 100vh;
+  background-color: red;}
+.container#first.second
+{
+  position: relative;
+}
+
